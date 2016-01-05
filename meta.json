@@ -2,25 +2,42 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "link",
+            "title": "Bitlink"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "canonical_url",
+            "title": "URL"
+        },
+        {
+            "id": "category",
+            "title": "Category"
+        },
+        {
+            "id": "content_length",
+            "title": "Content Length"
+        },
+        {
+            "id": "content_type",
+            "title": "Content Type"
+        },
+        {
+            "id": "domain",
+            "title": "Domain"
+        },
+        {
+            "id": "favicon_url",
+            "title": "Favicon"
+        },
+        {
+            "id": "html_title",
+            "title": "Page Title"
         }
-      */
     ],
-    "title": "Bitly: Get Link Info" /* Required.A display name for the module */
+    "icon": "dex-bitly",
+    "title": "Bitly: Get Link Info"
 }
