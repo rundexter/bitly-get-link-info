@@ -38,6 +38,9 @@
             "title": "Page Title"
         }
     ],
+    "providers": [{
+        "name": "bitly"
+    }],
     "icon": "dex-bitly",
     "title": "Bitly: Get Link Info"
 }
