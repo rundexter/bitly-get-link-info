@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "author": "Alexander",
-  "license": "ISC",
+  "author": "Run Dexter, Inc.",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "lodash": "^3.10.1",
