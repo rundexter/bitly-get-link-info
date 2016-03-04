@@ -1,17 +1,18 @@
 {
-   "name": "bitly-get-link-info",
-   "version": "0.0.1",
-   "description": "Returns metadata about a single Bitlink",
-   "main": "index.js",
-   "author": "Run Dexter, Inc",
-   "license": "MIT",
-   "private": true,
-   "dependencies": {
-      "lodash": "^3.10.1",
-      "request": "^2.67.0"
-   },
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/rundexter/bitly-get-link-info"
-   }
+  "name": "bitly-get-link-info",
+  "version": "0.0.1",
+  "description": "Returns metadata about a single Bitlink",
+  "main": "index.js",
+  "author": "Run Dexter, Inc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "superagent": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rundexter/bitly-get-link-info"
+  }
 }

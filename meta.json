@@ -2,42 +2,32 @@
  * Metadata describing the module operation
  */
 {
-    "inputs": [
-        {
-            "id": "link",
-            "title": "Bitlink"
-        }
-    ],
-    "outputs": [
-        {
-            "id": "canonical_url",
-            "title": "URL"
-        },
-        {
-            "id": "category",
-            "title": "Category"
-        },
-        {
-            "id": "content_length",
-            "title": "Content Length"
-        },
-        {
-            "id": "content_type",
-            "title": "Content Type"
-        },
-        {
-            "id": "domain",
-            "title": "Domain"
-        },
-        {
-            "id": "favicon_url",
-            "title": "Favicon"
-        },
-        {
-            "id": "html_title",
-            "title": "Page Title"
-        }
-    ],
+    "inputs": [{
+        "id": "link",
+        "title": "Bitlink"
+    }],
+    "outputs": [{
+        "id": "canonical_url",
+        "title": "URL"
+    }, {
+        "id": "category",
+        "title": "Category"
+    }, {
+        "id": "content_length",
+        "title": "Content Length"
+    }, {
+        "id": "content_type",
+        "title": "Content Type"
+    }, {
+        "id": "domain",
+        "title": "Domain"
+    }, {
+        "id": "favicon_url",
+        "title": "Favicon"
+    }, {
+        "id": "html_title",
+        "title": "Page Title"
+    }],
     "providers": [{
         "name": "bitly"
     }],

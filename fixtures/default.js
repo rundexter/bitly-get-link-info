@@ -17,9 +17,9 @@ module.exports = _.merge({
         active_step :  "local_test_step"
     }
     , workflow: {
-        "id" : "local_test_workflow"
-        , "title": "Local test workflow"
-        , "description": "A fixture workflow used to test a module"
+        "id"            : "local_test_workflow"
+        , "title"       : "Local test workflow"
+        , "description" : "A fixture workflow used to test a module"
     }
     , steps: {
         local_test_step: {
@@ -62,7 +62,7 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                link: 'http://bit.ly/MwSGaQ'
+                link: ['http://es.pn/1VWRvBf', 'http://bit.ly/1LwW44L']
             }
         }
     }
