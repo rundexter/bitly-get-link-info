@@ -1,5 +1,4 @@
-var util = require('./util.js')
-  , req  = require('superagent')
+var req  = require('superagent')
   , q    = require('q')
   , _    = require('lodash')
 ;
